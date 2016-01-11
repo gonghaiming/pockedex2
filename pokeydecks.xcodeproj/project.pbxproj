@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1C02511C43329500ABA0B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C02501C43329500ABA0B3 /* AppDelegate.swift */; };
+		2A1C02531C43329500ABA0B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C02521C43329500ABA0B3 /* ViewController.swift */; };
+		2A1C02561C43329500ABA0B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C02541C43329500ABA0B3 /* Main.storyboard */; };
+		2A1C02581C43329600ABA0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C02571C43329600ABA0B3 /* Assets.xcassets */; };
+		2A1C025B1C43329600ABA0B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C02591C43329600ABA0B3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A1C024D1C43329500ABA0B3 /* pokeydecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokeydecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1C02501C43329500ABA0B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A1C02521C43329500ABA0B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A1C02551C43329500ABA0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A1C02571C43329600ABA0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A1C025A1C43329600ABA0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A1C025C1C43329600ABA0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1C024A1C43329500ABA0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1C02441C43329500ABA0B3 = {
+			isa = PBXGroup;
+			children = (
+				2A1C024F1C43329500ABA0B3 /* pokeydecks */,
+				2A1C024E1C43329500ABA0B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1C024E1C43329500ABA0B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1C024D1C43329500ABA0B3 /* pokeydecks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1C024F1C43329500ABA0B3 /* pokeydecks */ = {
+			isa = PBXGroup;
+			children = (
+				2A1C02501C43329500ABA0B3 /* AppDelegate.swift */,
+				2A1C02521C43329500ABA0B3 /* ViewController.swift */,
+				2A1C02541C43329500ABA0B3 /* Main.storyboard */,
+				2A1C02571C43329600ABA0B3 /* Assets.xcassets */,
+				2A1C02591C43329600ABA0B3 /* LaunchScreen.storyboard */,
+				2A1C025C1C43329600ABA0B3 /* Info.plist */,
+			);
+			path = pokeydecks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1C024C1C43329500ABA0B3 /* pokeydecks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1C025F1C43329600ABA0B3 /* Build configuration list for PBXNativeTarget "pokeydecks" */;
+			buildPhases = (
+				2A1C02491C43329500ABA0B3 /* Sources */,
+				2A1C024A1C43329500ABA0B3 /* Frameworks */,
+				2A1C024B1C43329500ABA0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokeydecks;
+			productName = pokeydecks;
+			productReference = 2A1C024D1C43329500ABA0B3 /* pokeydecks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1C02451C43329500ABA0B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gong;
+				TargetAttributes = {
+					2A1C024C1C43329500ABA0B3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = T97R4F4L6X;
+					};
+				};
+			};
+			buildConfigurationList = 2A1C02481C43329500ABA0B3 /* Build configuration list for PBXProject "pokeydecks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1C02441C43329500ABA0B3;
+			productRefGroup = 2A1C024E1C43329500ABA0B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1C024C1C43329500ABA0B3 /* pokeydecks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1C024B1C43329500ABA0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1C025B1C43329600ABA0B3 /* LaunchScreen.storyboard in Resources */,
+				2A1C02581C43329600ABA0B3 /* Assets.xcassets in Resources */,
+				2A1C02561C43329500ABA0B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1C02491C43329500ABA0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1C02531C43329500ABA0B3 /* ViewController.swift in Sources */,
+				2A1C02511C43329500ABA0B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A1C02541C43329500ABA0B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1C02551C43329500ABA0B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A1C02591C43329600ABA0B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1C025A1C43329600ABA0B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A1C025D1C43329600ABA0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A1C025E1C43329600ABA0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A1C02601C43329600ABA0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pokeydecks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gong.pokeydecks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A1C02611C43329600ABA0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pokeydecks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gong.pokeydecks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1C02481C43329500ABA0B3 /* Build configuration list for PBXProject "pokeydecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1C025D1C43329600ABA0B3 /* Debug */,
+				2A1C025E1C43329600ABA0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1C025F1C43329600ABA0B3 /* Build configuration list for PBXNativeTarget "pokeydecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1C02601C43329600ABA0B3 /* Debug */,
+				2A1C02611C43329600ABA0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1C02451C43329500ABA0B3 /* Project object */;
+}
